@@ -1,9 +1,6 @@
 package com.company;
 
-import com.company.codility.BinaryGap;
-import com.company.codility.CyclicRotation;
-import com.company.codility.FrogJmp;
-import com.company.codility.OddOccurrencesInArray;
+import com.company.codility.*;
 
 public class Main {
 
@@ -12,16 +9,17 @@ public class Main {
         //binaryGap();
         //oddOccurrencesInArray();
         //cyclicRotation();
-        frogJmp();
+        //frogJmp();
+        permMissingElem();
     }
 
-    public static void binaryGap(){ //Codelity
+    public static void binaryGap(){
         int s = new BinaryGap().solution(51712);
 
         System.out.println(s);
     }
 
-    public static void oddOccurrencesInArray(){ //Codelity
+    public static void oddOccurrencesInArray(){
         int s = new OddOccurrencesInArray().solution(new int[]{9, 3, 9, 3, 9, 7, 3, 7, 2});
 
         System.out.println(s);
@@ -37,6 +35,12 @@ public class Main {
 
     public static void frogJmp(){
         int s = new FrogJmp().solution(1, 39, 1);
+        System.out.println(s);
+    }
+
+    public static void permMissingElem(){
+        int s = new PermMissingElem().solution(new int[]{2, 3, 1, 5});
+
         System.out.println(s);
     }
 }
