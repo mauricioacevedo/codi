@@ -12,6 +12,8 @@ public class OddOccurrencesInArray {
     // Codility
     // Correctness 80%, Performance 50% -> 66%
     // Solution: https://codility.com/demo/results/training4U7WG5-SQ4/
+
+    // Correctness 80%, Performance 50% -> 66%
     // Solution2: https://codility.com/demo/results/trainingZTPPY6-9CC/
 
     public int solution(int[] A) {

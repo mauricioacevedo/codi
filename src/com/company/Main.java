@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.codility.BinaryGap;
 import com.company.codility.CyclicRotation;
+import com.company.codility.FrogJmp;
 import com.company.codility.OddOccurrencesInArray;
 
 public class Main {
@@ -10,7 +11,8 @@ public class Main {
 	// write your code here
         //binaryGap();
         //oddOccurrencesInArray();
-        cyclicRotation();
+        //cyclicRotation();
+        frogJmp();
     }
 
     public static void binaryGap(){ //Codelity
@@ -31,5 +33,10 @@ public class Main {
         for (int i = 0; i < s.length; i++) {
             System.out.print(s[i] + "  ");
         }
+    }
+
+    public static void frogJmp(){
+        int s = new FrogJmp().solution(1, 39, 1);
+        System.out.println(s);
     }
 }
